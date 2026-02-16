@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* YOUR CSS GOES HERE */
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            color:#333;
+        }
+
+        header{
+            background-color: rgb(165, 126, 132);
+            padding:20px;
+        }
+        ul{
+            display:flex;
+            list-style:none;
+        }
+        .card{
+            padding:15px;
+            border:1px solid #ddd;
+            border-radius: 15px;
+            margin:10px 0;
+        }
+
+        a{
+            color:rgb(59, 5, 59);
+        }
+        footer{
+            background-color: rgb(68, 15, 24);
+        }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Hlulani</h1>
+        <p>Student ID: 2715751</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="card" id="about">
+            <h2>About Me</h2>
+            <p>
+                I love to watch k-Dramas and do a little crocheting, here and there. I am studying Computer Science and I hope to achieve sufficient knowlegde that will help me become a backend developer and projects I can use that will help me get there.
+            </p>
+        </section>
+
+        <article class="card" id="projects">
+            <h2>Latest Project</h2>
+            <p>Describe a project you have worked on or are currently working on. This could be a personal project, a group assignment, or something you built for fun.
+                I am currently build a Planner assisstant  website that behaves somehow like Siri. You tell it what to do it does that for you, tells you if there are conflicting time slots even suggestions. It uses voice to text. It's pretty cool.
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hlulani. All rights reserved.</p>
+    </footer>
+</body>
+</html>
